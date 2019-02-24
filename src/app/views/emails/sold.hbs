@@ -1,0 +1,21 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif
+    }
+  </style>
+</head>
+
+<body>
+  <strong>Olá, {{ purchase.author.name }}</strong>
+  <p>Parabéns, sua proposta para {{ purchase.ad.title }} foi aceita!</p>
+  <br>
+  <strong>Valor Compra: {{ purchase.price }}</strong>
+  <br>
+  <p>Obs.: Entre em contato com o vendedor para concretizar a compra. Segue contato do vendedor:</p>
+  <strong>{{ user.name }} ({{ user.email }})</strong>
+</body>
+
+</html>
